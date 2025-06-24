@@ -1,0 +1,212 @@
+.image-overlay {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 500px; 
+    overflow: hidden;
+  }
+  .image-overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .image-overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 123, 255, 0.5);
+    z-index: 1;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 2;
+    text-align: center;
+  }
+  .overlay-text p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .icon-box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+  }
+  .section-title {
+    color: #f5515f;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .dotted {
+    border-bottom: 2px dotted #f5515f;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  .f-2 img{
+    width: 70%;
+    height: 70%;
+    float: right;}
+  
+.size-font{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.footer a {
+  color: #bbb;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #fff;
+}
+
+.footer .social a:hover {
+  color: #0d6efd;
+}
+
+
+.instructor-card {
+  background-color: #eaf3ff;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.instructor-card:hover {
+  transform: translateY(-10px);
+}
+.instructor-card img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.instructor-name {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+.instructor-role {
+  color: #6c757d;
+}
+.social-icons i {
+  color: #0d6efd;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.social-icons i:hover {
+  color: #084298;
+}
+
+.testimonial-section {
+  background-color: #f8fbff;
+  padding: 50px 0;
+}
+.testimonial-title {
+  color: #ff0000;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.testimonial-heading {
+  font-weight: 700;
+  font-size: 48px;
+}
+.testimonial-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.quote-icon {
+  font-size: 30px;
+  color: #007bff;
+}
+.arrow-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.arrow-btn.prev {
+  background: #ff4b5c;
+}
+
+.nh-1{
+  background: #d9e3f2;
+}
+
+input[type=text-2] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: none;
+border-bottom: 1px solid rgb(68, 67, 67);
+}
+
+input[type=text-2]:hover {
+  color: #0d6efd;}
+
+textarea[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 1px solid rgb(68, 67, 67);
+    }
+
+.h-2 img{
+    width: 55%;
+    }
+
+.form-control {
+    background-color: #eef6ff;
+    border: none;
+    }
+
+.cource-heading h1{ 
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cd-1 img{
+  width: 80%;
+}
+
+.enroll button{
+  margin-left: 48px;
+}
+
+.feature-box {
+      background-color: #2986f6;
+      color: white;
+      padding: 2rem;
+      border-radius: 0.5rem;
+    }
+
+
+.category-list span {
+      float: right;
+      background-color: #2986f6;
+      color: white;
+      font-size: 0.8rem;
+      padding: 2px 8px;
+      border-radius: 12px;}
+
